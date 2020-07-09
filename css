@@ -1,1 +1,42 @@
+body {
+    width: 100%;
+    height: 100%;
+}
 
+.one {
+    width: 30%;
+    float: left;
+    min-height: 100%;
+}
+
+.two {
+    width: 30%;
+    float: left;
+    min-height: 100%;
+}
+
+.three {
+    width: 30%;
+    float: left;
+    min-height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background-color: gray;
+    border: groove;
+    text-align: center;
+    margin-right: 15px;
+    border-color: black;
+}
+
+h3 {
+    background-color: hotpink;
+    text-align: right;
+    border: groove;
+    border-color: black;
+    border-
+}
