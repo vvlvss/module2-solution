@@ -1,3 +1,25 @@
+@media (min-width: 992px) {
+    .content-wrapper {padding: 0;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .three {
+        float: bottom;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .two {
+        float: bottom;
+        width: 100%;
+    }
+    .three {
+        float: bottom;
+        width: 100%;
+    }
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -26,7 +48,7 @@ h1 {
 }
 
 div {
-    background-color: gray;
+    background-color: rgb(156, 156, 156);
     border: groove;
     text-align: center;
     margin-right: 15px;
@@ -34,9 +56,19 @@ div {
 }
 
 h3 {
-    background-color: hotpink;
-    text-align: right;
-    border: groove;
+    margin: 0%;
+    margin-left: auto;
+    width: 75px;
+    background-color: rgb(245, 121, 183);
+    border-left: groove;
+    border-bottom: groove;
     border-color: black;
-    border-
+}
+
+#name2 {
+    background-color: rgb(211, 0, 0);
+}
+
+#name3 {
+    background-color: khaki;
 }
